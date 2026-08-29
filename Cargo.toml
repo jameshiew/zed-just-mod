@@ -11,5 +11,5 @@ zed_extension_api = "0.7.0"
 
 [profile.release]
 opt-level = "z"
-lto = true
 strip = true
+lto = true

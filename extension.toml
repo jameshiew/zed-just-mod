@@ -1,7 +1,7 @@
 id = "just"
 name = "Justfile"
 description = "Justfile language support"
-version = "0.2.0"
+version = "0.2.1"
 schema_version = 1
 authors = [
   "Jack Taylor <j@jackt.io>",
@@ -10,8 +10,8 @@ authors = [
 repository = "https://github.com/jackTabsCode/zed-just"
 
 [grammars.just]
-repository = "https://github.com/casey/tree-sitter-just"
-rev = "5685543a6e64f66335e25518c9ae8ffa1dae3d01"
+repository = "https://github.com/jameshiew/tree-sitter-just"
+rev = "4f3a9e4e5f628c8a9ba22a0945dd9b3906044c7e"
 
 [language_servers.just-lsp]
 name = "just-lsp"

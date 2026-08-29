@@ -1,5 +1,4 @@
 /grammars/*
-justfile
 !tests/justfile
 .DS_Store
 .direnv/
